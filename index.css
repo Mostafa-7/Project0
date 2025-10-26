@@ -1,0 +1,208 @@
+body, html
+{
+    height: 100%;
+}
+
+h3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/*Links at the top right*/
+a, a:visited
+{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+
+/* Search Bar Attributes */
+.bar
+{
+    width: 655px; height: 45px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-indent: 20px;
+    font-family: sans-serif; font-size: 20px; line-height: 16px;
+    flex: 100%;
+}
+
+.bar:hover
+{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bar:focus
+{
+    border-color: #c2ccd5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.buttons
+{
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons input[type="submit"]
+{
+    padding-top: 18px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa; border-radius: 8px;
+    height: 36px; min-width: 54px;
+    font-optical-sizing: none; font-size: 14px; font-weight: 400;
+    margin: 11px 4px; padding: 0 16px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Submit Buttons */
+input [type="submit"]
+{
+    display: flex; justify-content: center; align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+    width: 160px; height: 40px;
+    border: 1px hidden #ccc;
+    background-color: #F8F8FF;
+    font-size: medium;
+    text-align: center;
+    vertical-align: auto;
+}
+
+input[type="submit"]:hover
+{
+    box-shadow: 0 1px 3px rgb(162, 162, 162);
+}
+
+/*Advance Word at the top of the file*/
+#advanced
+{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    margin-left: 10px;
+}
+
+
+#top
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+#manager
+{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.whole_form
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.whole_line
+{
+    display: block;
+}
+
+.titles
+{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin: left;
+}
+
+.rec
+{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.rectangles
+{
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+/*{Advanced Search} Button*/
+#blue_button
+{
+    user-select: none;
+    line-height: 100%;
+    height: 30px; min-width: 120px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px; font-weight: bold; text-align: center; color: #fff;
+    white-space: nowrap;
+}
